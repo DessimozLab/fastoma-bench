@@ -1,0 +1,11 @@
+[project]
+name = "fastoma-bench"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11,<=3.12"
+dependencies = [
+    "plotly",
+    "pandas",
+    "pyham>=1.2.0",
+    "pyyaml",
+]

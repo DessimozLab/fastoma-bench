@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phyloxml xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phyloxml.org">
+  <phylogeny type="gene tree" rooted="true">
+    <clade branch_length="0">
+      <confidence type="duplication_confidence_score">0</confidence>
+      <taxonomy>
+        <id>9347</id>
+        <scientific_name>Eutheria</scientific_name>
+        <common_name>Placentals</common_name>
+      </taxonomy>
+      <events>
+        <type>speciation_or_duplication</type>
+        <duplications>1</duplications>
+      </events>
+      <property datatype="xsd:int" ref="Compara:dubious_duplication" applies_to="clade">dubious_duplication</property>
+      <clade branch_length="0.239706">
+        <confidence type="bootstrap">8</confidence>
+        <taxonomy>
+          <id>9347</id>
+          <scientific_name>Eutheria</scientific_name>
+          <common_name>Placentals</common_name>
+        </taxonomy>
+        <clade branch_length="0">
+          <taxonomy>
+            <id>1437010</id>
+            <scientific_name>Boreoeutheria</scientific_name>
+            <common_name>Placental mammals</common_name>
+          </taxonomy>
+          <clade branch_length="0">
+            <taxonomy>
+              <id>314145</id>
+              <scientific_name>Laurasiatheria</scientific_name>
+              <common_name>Laurasiatherian mammals</common_name>
+            </taxonomy>
+            <clade branch_length="0.018717">
+              <confidence type="bootstrap">4</confidence>
+              <taxonomy>
+                <id>314145</id>
+                <scientific_name>Laurasiatheria</scientific_name>
+                <common_name>Laurasiatherian mammals</common_name>
+              </taxonomy>
+              <clade branch_length="0.007506">
+                <confidence type="bootstrap">6</confidence>
+                <taxonomy>
+                  <id>314145</id>
+                  <scientific_name>Laurasiatheria</scientific_name>
+                  <common_name>Laurasiatherian mammals</common_name>
+                </taxonomy>
+                <clade branch_length="0.011477">
+                  <confidence type="bootstrap">2</confidence>
+                  <taxonomy>
+                    <id>91561</id>
+                    <scientific_name>Artiodactyla</scientific_name>
+                    <common_name>Cetaceans and Even-toed ungulates</common_name>
+                  </taxonomy>
+                  <clade branch_length="0">
+                    <confidence type="bootstrap">15</confidence>
+                    <taxonomy>
+                      <id>91561</id>
+                      <scientific_name>Artiodactyla</scientific_name>
+                      <common_name>Cetaceans and Even-toed ungulates</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.011302">
+                      <confidence type="bootstrap">62</confidence>
+                      <taxonomy>
+                        <id>91561</id>
+                        <scientific_name>Artiodactyla</scientific_name>
+                        <common_name>Cetaceans and Even-toed ungulates</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.031955">
+                        <confidence type="bootstrap">39</confidence>
+                        <taxonomy>
+                          <id>9721</id>
+                          <scientific_name>Cetacea</scientific_name>
+                          <common_name>Whales &amp; dolphins</common_name>
+                        </taxonomy>
+                        <clade branch_length="0.004911">
+                          <confidence type="bootstrap">38</confidence>
+                          <taxonomy>
+                            <id>9722</id>
+                            <scientific_name>Odontoceti</scientific_name>
+                            <common_name>Tooth whales</common_name>
+                          </taxonomy>
+                          <clade branch_length="0.015289">
+                            <confidence type="bootstrap">96</confidence>
+                            <taxonomy>
+                              <id>9722</id>
+                              <scientific_name>Odontoceti</scientific_name>
+                              <common_name>Tooth whales</common_name>
+                            </taxonomy>
+                            <clade branch_length="0.00363">
+                              <confidence type="bootstrap">97</confidence>
+                              <taxonomy>
+                                <id>9747</id>
+                                <scientific_name>Monodontidae</scientific_name>
+                              </taxonomy>
+                              <clade branch_length="0">
+                                <name>ENSDLEG00000005954</name>
+                                <taxonomy>
+                                  <id>9749</id>
+                                  <scientific_name>Delphinapterus leucas</scientific_name>
+                                  <common_name>Beluga whale</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSDLEP00000008073</accession>
+                                  <name>INS-201</name>
+                                  <location>ML702017.1:1581025-1581846</location>
+                                  <mol_seq is_aligned="0">MVLWMRLVPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVESPQVGAVELGGGPGAGGLQPPALEGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">delphinapterus_leucas</property>
+                              </clade>
+                              <clade branch_length="0">
+                                <name>ENSMMNG00015018959</name>
+                                <taxonomy>
+                                  <id>40151</id>
+                                  <scientific_name>Monodon monoceros</scientific_name>
+                                  <common_name>Narwhal</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSMMNP00015025892</accession>
+                                  <name>INS-201</name>
+                                  <location>SIHG01006970.1:106011770-106012602</location>
+                                  <mol_seq is_aligned="0">MVLWMRLVPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVESPQVGAVELGGGPGAGGLQPPALEGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">monodon_monoceros</property>
+                              </clade>
+                            </clade>
+                            <clade branch_length="0.007361">
+                              <name>ENSPSNG00000004563</name>
+                              <taxonomy>
+                                <id>42100</id>
+                                <scientific_name>Phocoena sinus</scientific_name>
+                                <common_name>Vaquita</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSPSNP00000006115</accession>
+                                <name>INS-201</name>
+                                <location>8:108830478-108831304</location>
+                                <mol_seq is_aligned="0">MVLWMRLVPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVESPQVGAVELGGGPGAGGLQPPALQGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">phocoena_sinus</property>
+                            </clade>
+                          </clade>
+                          <clade branch_length="0.034413">
+                            <name>ENSPCTG00005008308</name>
+                            <taxonomy>
+                              <id>9755</id>
+                              <scientific_name>Physeter catodon</scientific_name>
+                              <common_name>Sperm whale</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSPCTP00005011704</accession>
+                              <name>INS-201</name>
+                              <location>18:3115430-3116283</location>
+                              <mol_seq is_aligned="0">MALWMRLLPLLALLALWAPTPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQAGAVELGGGPGAGGLQPPALEGRPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">physeter_catodon</property>
+                          </clade>
+                        </clade>
+                        <clade branch_length="0.008388">
+                          <name>ENSBMSG00010006810</name>
+                          <taxonomy>
+                            <id>9771</id>
+                            <scientific_name>Balaenoptera musculus</scientific_name>
+                            <common_name>Blue whale</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSBMSP00010009249</accession>
+                            <name>INS-201</name>
+                            <location>8:108825481-108826314</location>
+                            <mol_seq is_aligned="0">MALWMRLVPLLALLALWAPTPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGAVELGGGPGAGGLQPRALEGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">balaenoptera_musculus</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.036676">
+                        <confidence type="bootstrap">87</confidence>
+                        <taxonomy>
+                          <id>35497</id>
+                          <scientific_name>Suina</scientific_name>
+                        </taxonomy>
+                        <clade branch_length="0.03208">
+                          <name>ENSSSCG00000033740</name>
+                          <taxonomy>
+                            <id>9823</id>
+                            <scientific_name>Sus scrofa reference breed</scientific_name>
+                            <common_name>Pig</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSSSCP00000044635</accession>
+                            <name>INS-201</name>
+                            <location>2:1496842-1497841</location>
+                            <mol_seq is_aligned="0">MALWTRLLPLLALLALWAPAPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAENPQAGAVELGGGLGGLQALALEGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">sus_scrofa</property>
+                        </clade>
+                        <clade branch_length="0.045213">
+                          <name>ENSCWAG00000010672</name>
+                          <taxonomy>
+                            <id>51154</id>
+                            <scientific_name>Catagonus wagneri</scientific_name>
+                            <common_name>Chacoan peccary</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSCWAP00000013742</accession>
+                            <name>INS-201</name>
+                            <location>PVHT021183574.1:112455-113179</location>
+                            <mol_seq is_aligned="0">MALWMRLAPLLALLALWAPGPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEAPRAGAVELGGGPGGLQALALEGPPQKRGIVEQCCTGICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">catagonus_wagneri</property>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.032068">
+                      <confidence type="bootstrap">39</confidence>
+                      <taxonomy>
+                        <id>35500</id>
+                        <scientific_name>Pecora</scientific_name>
+                      </taxonomy>
+                      <clade branch_length="0.029443">
+                        <confidence type="bootstrap">40</confidence>
+                        <taxonomy>
+                          <id>35500</id>
+                          <scientific_name>Pecora</scientific_name>
+                        </taxonomy>
+                        <clade branch_length="0.016232">
+                          <confidence type="bootstrap">24</confidence>
+                          <taxonomy>
+                            <id>9895</id>
+                            <scientific_name>Bovidae</scientific_name>
+                            <common_name>Bovids</common_name>
+                          </taxonomy>
+                          <clade branch_length="0.005853">
+                            <confidence type="bootstrap">56</confidence>
+                            <taxonomy>
+                              <id>9963</id>
+                              <scientific_name>Caprinae</scientific_name>
+                            </taxonomy>
+                            <clade branch_length="0">
+                              <name>ENSOARG00020007731</name>
+                              <taxonomy>
+                                <id>9940</id>
+                                <scientific_name>Ovis aries reference breed</scientific_name>
+                                <common_name>Sheep</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSOARP00020009730</accession>
+                                <name>INS-201</name>
+                                <location>21:45772830-45774086</location>
+                                <mol_seq is_aligned="0">MALWTRLVPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAGGLEGPPQKRGIVEQCCAGVCSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">ovis_aries_rambouillet</property>
+                            </clade>
+                            <clade branch_length="0.03249">
+                              <name>ENSCHIG00000011044</name>
+                              <taxonomy>
+                                <id>9925</id>
+                                <scientific_name>Capra hircus reference breed</scientific_name>
+                                <common_name>Goat</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSCHIP00000007610</accession>
+                                <name>INS-201</name>
+                                <location>29:50412043-50412824</location>
+                                <mol_seq is_aligned="0">MALWTRLVPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGVLELAGGPGAGSLEGPPQKRGIVEQCCAGVCSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">capra_hircus</property>
+                            </clade>
+                          </clade>
+                          <clade branch_length="0.023157">
+                            <confidence type="bootstrap">37</confidence>
+                            <taxonomy>
+                              <id>9903</id>
+                              <scientific_name>Bos</scientific_name>
+                              <common_name>Cattle</common_name>
+                            </taxonomy>
+                            <clade branch_length="0.000644">
+                              <confidence type="bootstrap">96</confidence>
+                              <taxonomy>
+                                <id>9903</id>
+                                <scientific_name>Bos</scientific_name>
+                                <common_name>Cattle</common_name>
+                              </taxonomy>
+                              <clade branch_length="0">
+                                <name>ENSBIXG00005025465</name>
+                                <taxonomy>
+                                  <id>30522</id>
+                                  <scientific_name>Bos indicus x Bos taurus</scientific_name>
+                                  <common_name>Hybrid - Bos Indicus</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSBIXP00005022610</accession>
+                                  <name>INS-201</name>
+                                  <location>29:1775098-1776778</location>
+                                  <mol_seq is_aligned="0">MALWTRLAPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAGGLEGPPQKRGIVEQCCASVCSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">bos_indicus_hybrid</property>
+                              </clade>
+                              <clade branch_length="0">
+                                <name>ENSBTAG00000013003</name>
+                                <taxonomy>
+                                  <id>9913</id>
+                                  <scientific_name>Bos taurus reference breed</scientific_name>
+                                  <common_name>Cattle</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSBTAP00000017289</accession>
+                                  <name>INS-201</name>
+                                  <location>29:49393375-49394536</location>
+                                  <mol_seq is_aligned="0">MALWTRLAPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAGGLEGPPQKRGIVEQCCASVCSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">bos_taurus</property>
+                              </clade>
+                            </clade>
+                            <clade branch_length="0.031139">
+                              <confidence type="bootstrap">67</confidence>
+                              <taxonomy>
+                                <id>9903</id>
+                                <scientific_name>Bos</scientific_name>
+                                <common_name>Cattle</common_name>
+                              </taxonomy>
+                              <clade branch_length="0.074789">
+                                <name>ENSBMUG00000020393</name>
+                                <taxonomy>
+                                  <id>72004</id>
+                                  <scientific_name>Bos mutus</scientific_name>
+                                  <common_name>Wild yak</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSBMUP00000027209</accession>
+                                  <name>INS-201</name>
+                                  <location>JH882120.1:392515-393182</location>
+                                  <mol_seq is_aligned="0">MALWIRLAPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREDDPQGGLTPSTLPSHLGPLKRGIVEQCCASVCSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">bos_mutus</property>
+                              </clade>
+                              <clade branch_length="0.269418">
+                                <name>ENSBGRG00000010351</name>
+                                <taxonomy>
+                                  <id>30521</id>
+                                  <scientific_name>Bos grunniens</scientific_name>
+                                  <common_name>Domestic yak</common_name>
+                                </taxonomy>
+                                <sequence>
+                                  <accession source="Ensembl">ENSBGRP00000016420</accession>
+                                  <name>INS-201</name>
+                                  <location>29:2008323-2009070</location>
+                                  <mol_seq is_aligned="0">MALWTRLAPLLALLALWAPPGPRLANQHLCGSHLVEALYLVCGERLLLHAQGPPEVEGPRVSPRERAPGWPRFGAGGLRPLKLRHREQCCASVCSLYQLENYCN</mol_seq>
+                                </sequence>
+                                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">bos_grunniens</property>
+                              </clade>
+                            </clade>
+                          </clade>
+                        </clade>
+                        <clade branch_length="0.0267">
+                          <name>ENSMMSG00000020760</name>
+                          <taxonomy>
+                            <id>68415</id>
+                            <scientific_name>Moschus moschiferus</scientific_name>
+                            <common_name>Siberian musk deer</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSMMSP00000027672</accession>
+                            <name>INS-201</name>
+                            <location>PVHU021072431.1:817002-817788</location>
+                            <mol_seq is_aligned="0">MALWTRLAPLLALLALWAPAPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEGPQVGALELAGGPGAGGLEGPPQKRGIVEQCCTGVCSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">moschus_moschiferus</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.055267">
+                        <name>ENSCHYG00000002508</name>
+                        <taxonomy>
+                          <id>84702</id>
+                          <scientific_name>Cervus hanglu yarkandensis</scientific_name>
+                          <common_name>Yarkand deer</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSCHYP00000003975</accession>
+                          <name>INS-201</name>
+                          <location>2:44761406-44762174</location>
+                          <mol_seq is_aligned="0">MALWTRLLPLLALLALCAPAPAGAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREDDPQGLAGGPGAGGLEGPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">cervus_hanglu_yarkandensis</property>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.074906">
+                    <name>ENSCDRG00005020986</name>
+                    <taxonomy>
+                      <id>9838</id>
+                      <scientific_name>Camelus dromedarius</scientific_name>
+                      <common_name>Arabian camel</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSCDRP00005030700</accession>
+                      <name>INS-201</name>
+                      <location>10:1900269-1901094</location>
+                      <mol_seq is_aligned="0">MALWTRLLALLALLALGAPTPARAFANQHLCGSHLVEALYLVCGERGFFYTPKRGIVEQCCASVCSLYQLENYCN</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">camelus_dromedarius</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.048685">
+                  <confidence type="bootstrap">39</confidence>
+                  <taxonomy>
+                    <id>33554</id>
+                    <scientific_name>Carnivora</scientific_name>
+                    <common_name>Carnivores</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.012858">
+                    <confidence type="bootstrap">11</confidence>
+                    <taxonomy>
+                      <id>379584</id>
+                      <scientific_name>Caniformia</scientific_name>
+                      <common_name>Caniforms</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.006542">
+                      <confidence type="bootstrap">11</confidence>
+                      <taxonomy>
+                        <id>379584</id>
+                        <scientific_name>Caniformia</scientific_name>
+                        <common_name>Caniforms</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.068004">
+                        <confidence type="bootstrap">100</confidence>
+                        <taxonomy>
+                          <id>169418</id>
+                          <scientific_name>Mustelinae</scientific_name>
+                        </taxonomy>
+                        <clade branch_length="0.005727">
+                          <name>ENSMPUG00000005638</name>
+                          <taxonomy>
+                            <id>9669</id>
+                            <scientific_name>Mustela putorius furo</scientific_name>
+                            <common_name>Ferret</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSMPUP00000005593</accession>
+                            <name>INS-201</name>
+                            <location>GL896969.1:8348411-8348953</location>
+                            <mol_seq is_aligned="0">MALWMRILPLLALLALWAPAPTAAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQARDSELGGAPGAGGLALGLEGALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mustela_putorius_furo</property>
+                        </clade>
+                        <clade branch_length="0.032407">
+                          <name>ENSNVIG00000007708</name>
+                          <taxonomy>
+                            <id>452646</id>
+                            <scientific_name>Neogale vison</scientific_name>
+                            <common_name>American mink</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSNVIP00000009743</accession>
+                            <name>INS-201</name>
+                            <location>FNWR01000266.1:1622959-1623493</location>
+                            <mol_seq is_aligned="0">MALWMRILPLLALLALWAPAPTAAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQARDSELGGAPGAGGLALGLEGALQKRGIVEQCCTGICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">neovison_vison</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.095555">
+                        <confidence type="bootstrap">100</confidence>
+                        <taxonomy>
+                          <id>9632</id>
+                          <scientific_name>Ursidae</scientific_name>
+                          <common_name>Bears</common_name>
+                        </taxonomy>
+                        <clade branch_length="0.035831">
+                          <name>ENSAMEG00000026511</name>
+                          <taxonomy>
+                            <id>9646</id>
+                            <scientific_name>Ailuropoda melanoleuca reference isolate</scientific_name>
+                            <common_name>Giant panda</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSAMEP00000031632</accession>
+                            <name>INS-201</name>
+                            <location>16:89612071-89613334</location>
+                            <mol_seq is_aligned="0">MGQAVGLGAIKPGGPRSPQPPGTSCTLTRTASRSPSPAMALWTRLLPLLALLAVWAPVPARTFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLPAAGDAELDRVPGADPQPRALAGALQRRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">ailuropoda_melanoleuca</property>
+                        </clade>
+                        <clade branch_length="0.04054">
+                          <name>ENSUAMG00000020859</name>
+                          <taxonomy>
+                            <id>9643</id>
+                            <scientific_name>Ursus americanus</scientific_name>
+                            <common_name>American black bear</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSUAMP00000026996</accession>
+                            <name>INS-201</name>
+                            <location>LZNR01000351.1:8481-9180</location>
+                            <mol_seq is_aligned="0">MALWTRLLPLLALLAFWAPVPARTFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLPGEPEGVPGADPQPRSLAGALQRRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">ursus_americanus</property>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.043223">
+                      <confidence type="bootstrap">97</confidence>
+                      <taxonomy>
+                        <id>9608</id>
+                        <scientific_name>Canidae</scientific_name>
+                        <common_name>Dog, coyote, wolf, fox</common_name>
+                      </taxonomy>
+                      <clade branch_length="0">
+                        <confidence type="bootstrap">97</confidence>
+                        <taxonomy>
+                          <id>9612</id>
+                          <scientific_name>Canis lupus</scientific_name>
+                          <common_name>Gray wolf</common_name>
+                        </taxonomy>
+                        <clade branch_length="0">
+                          <name>ENSCAFG00845011141</name>
+                          <taxonomy>
+                            <id>9615</id>
+                            <scientific_name>Canis lupus familiaris reference breed</scientific_name>
+                            <common_name>Dog</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSCAFP00845015468</accession>
+                            <name>INS-201</name>
+                            <location>18:47003520-47004411</location>
+                            <mol_seq is_aligned="0">MALWMRLLPLLALLALWAPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLQVRDVELAGAPGEGGLQPLALEGALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">canis_lupus_familiaris</property>
+                        </clade>
+                        <clade branch_length="0">
+                          <name>ENSCAFG00020017402</name>
+                          <taxonomy>
+                            <id>286419</id>
+                            <scientific_name>Canis lupus dingo</scientific_name>
+                            <common_name>Dingo</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSCAFP00020022029</accession>
+                            <name>INS-201</name>
+                            <location>QKWQ01000458.1:2811270-2811871</location>
+                            <mol_seq is_aligned="0">MALWMRLLPLLALLALWAPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLQVRDVELAGAPGEGGLQPLALEGALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">canis_lupus_dingo</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.007203">
+                        <name>ENSVVUG00000002675</name>
+                        <taxonomy>
+                          <id>9627</id>
+                          <scientific_name>Vulpes vulpes</scientific_name>
+                          <common_name>Red fox</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSVVUP00000003455</accession>
+                          <name>INS-201</name>
+                          <location>NBDQ01000050.1:4883871-4884466</location>
+                          <mol_seq is_aligned="0">MALWMRLLPLLALLALWAPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLQVRDVELAGAPGEGGLQPLALEGALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">vulpes_vulpes</property>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.090145">
+                    <confidence type="bootstrap">100</confidence>
+                    <taxonomy>
+                      <id>9681</id>
+                      <scientific_name>Felidae</scientific_name>
+                      <common_name>Cat family</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.010856">
+                      <confidence type="bootstrap">100</confidence>
+                      <taxonomy>
+                        <id>9688</id>
+                        <scientific_name>Panthera</scientific_name>
+                      </taxonomy>
+                      <clade branch_length="0">
+                        <name>ENSPLOG00000015551</name>
+                        <taxonomy>
+                          <id>9689</id>
+                          <scientific_name>Panthera leo</scientific_name>
+                          <common_name>Lion</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSPLOP00000021217</accession>
+                          <name>INS-201</name>
+                          <location>VOCV01000149.1:411809-412416</location>
+                          <mol_seq is_aligned="0">MALWTRLLPLLALLSLWTPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQGKDAELGEAPGAGGLQPSALEAPLQKRGIVEQCCASVCSLYQLEHYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">panthera_leo</property>
+                      </clade>
+                      <clade branch_length="0">
+                        <name>ENSPPRG00000013093</name>
+                        <taxonomy>
+                          <id>9691</id>
+                          <scientific_name>Panthera pardus</scientific_name>
+                          <common_name>Leopard</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSPPRP00000022615</accession>
+                          <name>INS-201</name>
+                          <location>KV860475.1:1061701-1062660</location>
+                          <mol_seq is_aligned="0">MALWTRLLPLLALLSLWTPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQGKDAELGEAPGAGGLQPSALEAPLQKRGIVEQCCASVCSLYQLEHYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">panthera_pardus</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.018857">
+                      <name>ENSFCTG00005002850</name>
+                      <taxonomy>
+                        <id>9685</id>
+                        <scientific_name>Felis catus reference strain</scientific_name>
+                        <common_name>Domestic cat</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSFCTP00005004898</accession>
+                        <name>TH-201</name>
+                        <location>D1:113662307-113663791</location>
+                        <mol_seq is_aligned="0">MGQKLQPQPRAICHCHRGGSDGPGGGVGSYKAGGAQQPAAPPPGTTCTLTRTASRSLSPAMAPWTRLLPLLALLSLWIPAPTRAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDLQGKDAELGEAPGAGGLQPSALEAPLQKRGIVEQCCASVCSLYQLEHYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">felis_catus</property>
+                    </clade>
+                  </clade>
+                </clade>
+              </clade>
+              <clade branch_length="0.073152">
+                <name>ENSEASG00005000392</name>
+                <taxonomy>
+                  <id>9793</id>
+                  <scientific_name>Equus asinus reference breed</scientific_name>
+                  <common_name>Donkey</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSEASP00005000407</accession>
+                  <name>INS-201</name>
+                  <location>17:45991539-45992610</location>
+                  <mol_seq is_aligned="0">MALWTRLLPLLALLALWSPSPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREAEDPQVGEVELGGGPGLGGLQPLALAGPPQKRGIVEQCCTGICSLYQLENYCN</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">equus_asinus</property>
+              </clade>
+            </clade>
+            <clade branch_length="0.394465">
+              <name>ENSMLUG00000003871</name>
+              <taxonomy>
+                <id>59463</id>
+                <scientific_name>Myotis lucifugus</scientific_name>
+                <common_name>Microbat</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSMLUP00000003521</accession>
+                <name>INS-201</name>
+                <location>AAPE02071988:2455-3184</location>
+                <mol_seq is_aligned="0">MALWTRLLPLLALLALWAPAPAQAFNHEHLCGEDLVDIMTIICGDQGFKNPKAARELPDPQEGEVDMGAGGPKALTVEELLQNTDIVEVCCTNICSFYDMETYCN</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">myotis_lucifugus</property>
+            </clade>
+          </clade>
+          <clade branch_length="0.023522">
+            <confidence type="bootstrap">1</confidence>
+            <taxonomy>
+              <id>314146</id>
+              <scientific_name>Euarchontoglires</scientific_name>
+              <common_name>Primates and Rodents</common_name>
+            </taxonomy>
+            <clade branch_length="0.004544">
+              <confidence type="bootstrap">4</confidence>
+              <taxonomy>
+                <id>9443</id>
+                <scientific_name>Primates</scientific_name>
+                <common_name>Primates</common_name>
+              </taxonomy>
+              <clade branch_length="0.027363">
+                <confidence type="bootstrap">33</confidence>
+                <taxonomy>
+                  <id>376911</id>
+                  <scientific_name>Strepsirrhini</scientific_name>
+                  <common_name>Wet nose lemurs</common_name>
+                </taxonomy>
+                <clade branch_length="0.030512">
+                  <confidence type="bootstrap">80</confidence>
+                  <taxonomy>
+                    <id>376915</id>
+                    <scientific_name>Lemuriformes</scientific_name>
+                  </taxonomy>
+                  <clade branch_length="0.018961">
+                    <confidence type="bootstrap">82</confidence>
+                    <taxonomy>
+                      <id>376915</id>
+                      <scientific_name>Lemuriformes</scientific_name>
+                    </taxonomy>
+                    <clade branch_length="0.026955">
+                      <name>ENSPCOG00000016945</name>
+                      <taxonomy>
+                        <id>379532</id>
+                        <scientific_name>Propithecus coquereli</scientific_name>
+                        <common_name>Coquerel's sifaka</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSPCOP00000010916</accession>
+                        <name>INS-201</name>
+                        <location>KQ023480.1:1637558-1638495</location>
+                        <mol_seq is_aligned="0">MALWTHLLPLLALLALWGPEPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRRELEEPQAGQVGPDGSLGAGGLQALALEGAPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">propithecus_coquereli</property>
+                    </clade>
+                    <clade branch_length="0.04156">
+                      <name>ENSMICG00000009410</name>
+                      <taxonomy>
+                        <id>30608</id>
+                        <scientific_name>Microcebus murinus</scientific_name>
+                        <common_name>Mouse Lemur</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSMICP00000008563</accession>
+                        <name>INS-201</name>
+                        <location>5:10496152-10497433</location>
+                        <mol_seq is_aligned="0">MALWTRLLPLLALLALWGPEPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEDAQAGQVGPDGGLGAGGLQALALEGAPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">microcebus_murinus</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.03311">
+                    <name>ENSPSMG00000019979</name>
+                    <taxonomy>
+                      <id>1328070</id>
+                      <scientific_name>Prolemur simus</scientific_name>
+                      <common_name>Greater bamboo lemur</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSPSMP00000028735</accession>
+                      <name>INS-201</name>
+                      <location>MPIZ01001458.1:98798-99754</location>
+                      <mol_seq is_aligned="0">MALWTHLLPLLALLALWGPEPTPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVGLDGALGAGGLQPLALEGAPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">prolemur_simus</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.100222">
+                  <name>ENSOGAG00000034796</name>
+                  <taxonomy>
+                    <id>30611</id>
+                    <scientific_name>Otolemur garnettii</scientific_name>
+                    <common_name>Bushbaby</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSOGAP00000019490</accession>
+                    <name>INS-201</name>
+                    <location>GL873653.1:5084925-5085969</location>
+                    <mol_seq is_aligned="0">MAVWMRLLPLLALLALWGPEPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKARRDTEDPQVGQVGLGGSPITGDLQSLALDVPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">otolemur_garnettii</property>
+                </clade>
+              </clade>
+              <clade branch_length="0.049673">
+                <confidence type="bootstrap">88</confidence>
+                <taxonomy>
+                  <id>314293</id>
+                  <scientific_name>Simiiformes</scientific_name>
+                  <common_name>Simians</common_name>
+                </taxonomy>
+                <clade branch_length="0.006474">
+                  <confidence type="bootstrap">73</confidence>
+                  <taxonomy>
+                    <id>9526</id>
+                    <scientific_name>Catarrhini</scientific_name>
+                    <common_name>Apes and Old World monkeys</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.008812">
+                    <confidence type="bootstrap">22</confidence>
+                    <taxonomy>
+                      <id>9527</id>
+                      <scientific_name>Cercopithecidae</scientific_name>
+                      <common_name>Old World monkeys</common_name>
+                    </taxonomy>
+                    <clade branch_length="0">
+                      <confidence type="bootstrap">26</confidence>
+                      <taxonomy>
+                        <id>9528</id>
+                        <scientific_name>Cercopithecinae</scientific_name>
+                        <common_name>Old World monkeys</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.006484">
+                        <confidence type="bootstrap">38</confidence>
+                        <taxonomy>
+                          <id>9528</id>
+                          <scientific_name>Cercopithecinae</scientific_name>
+                          <common_name>Old World monkeys</common_name>
+                        </taxonomy>
+                        <clade branch_length="0">
+                          <confidence type="bootstrap">29</confidence>
+                          <taxonomy>
+                            <id>9528</id>
+                            <scientific_name>Cercopithecinae</scientific_name>
+                            <common_name>Old World monkeys</common_name>
+                          </taxonomy>
+                          <clade branch_length="0.003527">
+                            <confidence type="bootstrap">63</confidence>
+                            <taxonomy>
+                              <id>9528</id>
+                              <scientific_name>Cercopithecinae</scientific_name>
+                              <common_name>Old World monkeys</common_name>
+                            </taxonomy>
+                            <clade branch_length="0">
+                              <name>ENSMLEG00000032291</name>
+                              <taxonomy>
+                                <id>9568</id>
+                                <scientific_name>Mandrillus leucophaeus</scientific_name>
+                                <common_name>Drill</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSMLEP00000016207</accession>
+                                <name>INS-201</name>
+                                <location>KN975467.1:1418691-1420091</location>
+                                <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mandrillus_leucophaeus</property>
+                            </clade>
+                            <clade branch_length="0.003541">
+                              <name>ENSCATG00000044493</name>
+                              <taxonomy>
+                                <id>9531</id>
+                                <scientific_name>Cercocebus atys</scientific_name>
+                                <common_name>Sooty mangabey</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSCATP00000043969</accession>
+                                <name>INS-201</name>
+                                <location>KQ012441.1:2059679-2061080</location>
+                                <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLSLEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">cercocebus_atys</property>
+                            </clade>
+                          </clade>
+                          <clade branch_length="0">
+                            <name>ENSPANG00000014163</name>
+                            <taxonomy>
+                              <id>9555</id>
+                              <scientific_name>Papio anubis</scientific_name>
+                              <common_name>Olive baboon</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSPANP00000003262</accession>
+                              <name>INS-201</name>
+                              <location>12:122632182-122633266</location>
+                              <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">papio_anubis</property>
+                          </clade>
+                        </clade>
+                        <clade branch_length="0.007068">
+                          <confidence type="bootstrap">75</confidence>
+                          <taxonomy>
+                            <id>9539</id>
+                            <scientific_name>Macaca</scientific_name>
+                            <common_name>Macaques</common_name>
+                          </taxonomy>
+                          <clade branch_length="0">
+                            <confidence type="bootstrap">94</confidence>
+                            <taxonomy>
+                              <id>9539</id>
+                              <scientific_name>Macaca</scientific_name>
+                              <common_name>Macaques</common_name>
+                            </taxonomy>
+                            <clade branch_length="0">
+                              <name>ENSMNEG00000036460</name>
+                              <taxonomy>
+                                <id>9545</id>
+                                <scientific_name>Macaca nemestrina</scientific_name>
+                                <common_name>Pig-tailed macaque</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSMNEP00000025983</accession>
+                                <name>INS-201</name>
+                                <location>KQ007745.1:11353472-11354874</location>
+                                <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">macaca_nemestrina</property>
+                            </clade>
+                            <clade branch_length="0">
+                              <name>ENSMMUG00000031267</name>
+                              <taxonomy>
+                                <id>9544</id>
+                                <scientific_name>Macaca mulatta</scientific_name>
+                                <common_name>Macaque</common_name>
+                              </taxonomy>
+                              <sequence>
+                                <accession source="Ensembl">ENSMMUP00000037777</accession>
+                                <name>INS-201</name>
+                                <location>14:2220646-2221730</location>
+                                <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                              </sequence>
+                              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">macaca_mulatta</property>
+                            </clade>
+                          </clade>
+                          <clade branch_length="0.010864">
+                            <name>ENSMFAG00000000997</name>
+                            <taxonomy>
+                              <id>9541</id>
+                              <scientific_name>Macaca fascicularis</scientific_name>
+                              <common_name>Crab-eating macaque</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSMFAP00000009056</accession>
+                              <name>INS-201</name>
+                              <location>14:2187828-2189163</location>
+                              <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGALAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">macaca_fascicularis</property>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.01132">
+                        <name>ENSCSAG00000009797</name>
+                        <taxonomy>
+                          <id>60711</id>
+                          <scientific_name>Chlorocebus sabaeus</scientific_name>
+                          <common_name>Vervet-AGM</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSCSAP00000006039</accession>
+                          <name>INS-201</name>
+                          <location>1:1965200-1966613</location>
+                          <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">chlorocebus_sabaeus</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.018633">
+                      <confidence type="bootstrap">92</confidence>
+                      <taxonomy>
+                        <id>542827</id>
+                        <scientific_name>Rhinopithecus</scientific_name>
+                      </taxonomy>
+                      <clade branch_length="0">
+                        <name>ENSRBIG00000031966</name>
+                        <taxonomy>
+                          <id>61621</id>
+                          <scientific_name>Rhinopithecus bieti</scientific_name>
+                          <common_name>Black snub-nosed monkey</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSRBIP00000015729</accession>
+                          <name>INS-201</name>
+                          <location>MCGX01000676.1:6197398-6198771</location>
+                          <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">rhinopithecus_bieti</property>
+                      </clade>
+                      <clade branch_length="0.007067">
+                        <name>ENSRROG00000040762</name>
+                        <taxonomy>
+                          <id>61622</id>
+                          <scientific_name>Rhinopithecus roxellana</scientific_name>
+                          <common_name>Golden snub-nosed monkey</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSRROP00000034403</accession>
+                          <name>INS-201</name>
+                          <location>KN298434.1:470983-472389</location>
+                          <mol_seq is_aligned="0">MALWMRLLPLLALLALCGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">rhinopithecus_roxellana</property>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.035958">
+                    <confidence type="bootstrap">100</confidence>
+                    <taxonomy>
+                      <id>9604</id>
+                      <scientific_name>Hominidae</scientific_name>
+                      <common_name>Great apes</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.003553">
+                      <name>ENSPPYG00000030963</name>
+                      <taxonomy>
+                        <id>9601</id>
+                        <scientific_name>Pongo abelii</scientific_name>
+                        <common_name>Sumatran orangutan</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSPPYP00000030570</accession>
+                        <name>INS-201</name>
+                        <location>11:1752564-1753672</location>
+                        <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">pongo_abelii</property>
+                    </clade>
+                    <clade branch_length="0.016211">
+                      <name>ENSG00000254647</name>
+                      <taxonomy>
+                        <id>9606</id>
+                        <scientific_name>Homo sapiens</scientific_name>
+                        <common_name>Human</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSP00000370731</accession>
+                        <name>INS-202</name>
+                        <location>11:2159779-2161221</location>
+                        <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">homo_sapiens</property>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade branch_length="0.086857">
+                  <taxonomy>
+                    <id>9479</id>
+                    <scientific_name>Platyrrhini</scientific_name>
+                    <common_name>New World monkeys</common_name>
+                  </taxonomy>
+                  <clade branch_length="0">
+                    <taxonomy>
+                      <id>9498</id>
+                      <scientific_name>Cebidae</scientific_name>
+                    </taxonomy>
+                    <clade branch_length="0.00361">
+                      <confidence type="bootstrap">39</confidence>
+                      <taxonomy>
+                        <id>9498</id>
+                        <scientific_name>Cebidae</scientific_name>
+                      </taxonomy>
+                      <clade branch_length="0.023946">
+                        <name>ENSCJAG00000035804</name>
+                        <taxonomy>
+                          <id>9483</id>
+                          <scientific_name>Callithrix jacchus</scientific_name>
+                          <common_name>White-tufted-ear marmoset</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSCJAP00000034117</accession>
+                          <name>INS-201</name>
+                          <location>11:126457498-126458532</location>
+                          <mol_seq is_aligned="0">MAPWMPLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQVGQVELGGGSITGSLPALEGPLQKRGVVDQCCTSICSLYQLQNYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">callithrix_jacchus</property>
+                      </clade>
+                      <clade branch_length="0.035239">
+                        <name>ENSSBOG00000032252</name>
+                        <taxonomy>
+                          <id>39432</id>
+                          <scientific_name>Saimiri boliviensis boliviensis</scientific_name>
+                          <common_name>Bolivian squirrel monkey</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSSBOP00000032135</accession>
+                          <name>INS-201</name>
+                          <location>JH378283.1:525074-526173</location>
+                          <mol_seq is_aligned="0">MALWMHLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDPQVGQAELGGGSITGSLSSLEGLLQKRGVVDQCCTSICSLYQLQNYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">saimiri_boliviensis_boliviensis</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.024108">
+                      <name>ENSCCAG00000029201</name>
+                      <taxonomy>
+                        <id>2715852</id>
+                        <scientific_name>Cebus imitator</scientific_name>
+                        <common_name>Panamanian white-faced capuchin</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSCCAP00000022809</accession>
+                        <name>INS-201</name>
+                        <location>KV389810.1:106017-107518</location>
+                        <mol_seq is_aligned="0">MALWMHLLPLLGLLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQVGQVELGGGSITGSLPPLEGPLQKRGVVDQCCTSICSLYQLQNYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">cebus_imitator</property>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.008841">
+                    <name>ENSANAG00000028907</name>
+                    <taxonomy>
+                      <id>37293</id>
+                      <scientific_name>Aotus nancymaae</scientific_name>
+                      <common_name>Ma's night monkey</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSANAP00000022276</accession>
+                      <name>INS-201</name>
+                      <location>KZ203563.1:555424-556523</location>
+                      <mol_seq is_aligned="0">MALWMHLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQVGQVELGGGSITGSLPPLEGPLQKRGVVDQCCTSICSLYQLQNYCN</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">aotus_nancymaae</property>
+                  </clade>
+                </clade>
+              </clade>
+            </clade>
+            <clade branch_length="0.007858">
+              <taxonomy>
+                <id>314146</id>
+                <scientific_name>Euarchontoglires</scientific_name>
+                <common_name>Primates and Rodents</common_name>
+              </taxonomy>
+              <clade branch_length="0.025956">
+                <taxonomy>
+                  <id>314147</id>
+                  <scientific_name>Glires</scientific_name>
+                  <common_name>Rodents and rabbits</common_name>
+                </taxonomy>
+                <clade branch_length="0.003638">
+                  <taxonomy>
+                    <id>9989</id>
+                    <scientific_name>Rodentia</scientific_name>
+                    <common_name>Rodents</common_name>
+                  </taxonomy>
+                  <clade branch_length="0.005062">
+                    <confidence type="bootstrap">3</confidence>
+                    <taxonomy>
+                      <id>9989</id>
+                      <scientific_name>Rodentia</scientific_name>
+                      <common_name>Rodents</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.013034">
+                      <confidence type="bootstrap">15</confidence>
+                      <taxonomy>
+                        <id>9989</id>
+                        <scientific_name>Rodentia</scientific_name>
+                        <common_name>Rodents</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.034149">
+                        <confidence type="bootstrap">47</confidence>
+                        <taxonomy>
+                          <id>1963758</id>
+                          <scientific_name>Myomorpha</scientific_name>
+                          <common_name>Mice and others</common_name>
+                        </taxonomy>
+                        <clade branch_length="0.022424">
+                          <confidence type="bootstrap">60</confidence>
+                          <taxonomy>
+                            <id>337687</id>
+                            <scientific_name>Muroidea</scientific_name>
+                          </taxonomy>
+                          <clade branch_length="0.06102">
+                            <confidence type="bootstrap">97</confidence>
+                            <taxonomy>
+                              <id>337687</id>
+                              <scientific_name>Muroidea</scientific_name>
+                            </taxonomy>
+                            <clade branch_length="0.01883">
+                              <confidence type="bootstrap">13</confidence>
+                              <taxonomy>
+                                <id>337677</id>
+                                <scientific_name>Cricetidae</scientific_name>
+                              </taxonomy>
+                              <clade branch_length="0">
+                                <confidence type="bootstrap">13</confidence>
+                                <taxonomy>
+                                  <id>337677</id>
+                                  <scientific_name>Cricetidae</scientific_name>
+                                </taxonomy>
+                                <clade branch_length="0.032085">
+                                  <name>ENSMOCG00000013477</name>
+                                  <taxonomy>
+                                    <id>79684</id>
+                                    <scientific_name>Microtus ochrogaster</scientific_name>
+                                    <common_name>Prairie vole</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSMOCP00000013795</accession>
+                                    <location>8:35360081-35361140</location>
+                                    <mol_seq is_aligned="0">MALWMRLLPLLALLVLWEPNPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVENPQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">microtus_ochrogaster</property>
+                                </clade>
+                                <clade branch_length="0.045616">
+                                  <name>ENSPEMG00000018633</name>
+                                  <taxonomy>
+                                    <id>230844</id>
+                                    <scientific_name>Peromyscus maniculatus bairdii</scientific_name>
+                                    <common_name>Northern American deer mouse</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSPEMP00000020796</accession>
+                                    <name>Ins-201</name>
+                                    <location>1:133666969-133667810</location>
+                                    <mol_seq is_aligned="0">MALWMRLLPLLALLVLWEPKPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVEDPQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">peromyscus_maniculatus_bairdii</property>
+                                </clade>
+                              </clade>
+                              <clade branch_length="0.017218">
+                                <confidence type="bootstrap">100</confidence>
+                                <taxonomy>
+                                  <id>10026</id>
+                                  <scientific_name>Cricetinae</scientific_name>
+                                  <common_name>Hamsters</common_name>
+                                </taxonomy>
+                                <clade branch_length="0.01886">
+                                  <name>ENSMAUG00000018376</name>
+                                  <taxonomy>
+                                    <id>10036</id>
+                                    <scientific_name>Mesocricetus auratus</scientific_name>
+                                    <common_name>Golden Hamster</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSMAUP00000020319</accession>
+                                    <name>Ins-201</name>
+                                    <location>KB708127.1:56355529-56356407</location>
+                                    <mol_seq is_aligned="0">MTLWMRLLPLLALLVLWEPNPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVEDPQVAQLELGGGPGADDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mesocricetus_auratus</property>
+                                </clade>
+                                <clade branch_length="0.01919">
+                                  <name>ENSCGRG00001024085</name>
+                                  <taxonomy>
+                                    <id>10029</id>
+                                    <scientific_name>Cricetulus griseus CHOK1GS_HDv1</scientific_name>
+                                    <common_name>Chinese hamster CHOK1GS</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSCGRP00001026910</accession>
+                                    <name>Ins-201</name>
+                                    <location>scaffold_9:36273388-36274185</location>
+                                    <mol_seq is_aligned="0">MALWMRLLPLLALLALWEPNPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRGVEDPQVTQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">cricetulus_griseus_chok1gshd</property>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade branch_length="0.029796">
+                              <confidence type="bootstrap">57</confidence>
+                              <confidence type="duplication_confidence_score">1</confidence>
+                              <taxonomy>
+                                <id>39107</id>
+                                <scientific_name>Murinae</scientific_name>
+                                <common_name>Old World rodents</common_name>
+                              </taxonomy>
+                              <events>
+                                <type>speciation_or_duplication</type>
+                                <duplications>1</duplications>
+                              </events>
+                              <clade branch_length="0.003842">
+                                <confidence type="bootstrap">59</confidence>
+                                <taxonomy>
+                                  <id>39107</id>
+                                  <scientific_name>Murinae</scientific_name>
+                                  <common_name>Old World rodents</common_name>
+                                </taxonomy>
+                                <clade branch_length="0.034886">
+                                  <confidence type="bootstrap">100</confidence>
+                                  <taxonomy>
+                                    <id>10088</id>
+                                    <scientific_name>Mus</scientific_name>
+                                    <common_name>Mice</common_name>
+                                  </taxonomy>
+                                  <clade branch_length="0.028325">
+                                    <confidence type="bootstrap">62</confidence>
+                                    <taxonomy>
+                                      <id>862507</id>
+                                      <scientific_name>Mus</scientific_name>
+                                    </taxonomy>
+                                    <clade branch_length="0.002718">
+                                      <confidence type="bootstrap">29</confidence>
+                                      <taxonomy>
+                                        <id>862507</id>
+                                        <scientific_name>Mus</scientific_name>
+                                      </taxonomy>
+                                      <clade branch_length="0.003402">
+                                        <confidence type="bootstrap">47</confidence>
+                                        <taxonomy>
+                                          <id>862507</id>
+                                          <scientific_name>Mus</scientific_name>
+                                        </taxonomy>
+                                        <clade branch_length="0.003409">
+                                          <name>ENSMSPG00010006608</name>
+                                          <taxonomy>
+                                            <id>10096</id>
+                                            <scientific_name>Mus spretus reference strain</scientific_name>
+                                            <common_name>Western wild mouse</common_name>
+                                          </taxonomy>
+                                          <sequence>
+                                            <accession source="Ensembl">ENSMSPP00010006285</accession>
+                                            <name>Ins1-201</name>
+                                            <location>19:48524538-48525251</location>
+                                            <mol_seq is_aligned="0">MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                          </sequence>
+                                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_spretus</property>
+                                        </clade>
+                                        <clade branch_length="0.006896">
+                                          <name>ENSMUSG00000035804</name>
+                                          <taxonomy>
+                                            <id>10090</id>
+                                            <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                                            <common_name>Mouse</common_name>
+                                          </taxonomy>
+                                          <sequence>
+                                            <accession source="Ensembl">ENSMUSP00000049095</accession>
+                                            <name>Ins1-201</name>
+                                            <location>19:52252735-52253914</location>
+                                            <mol_seq is_aligned="0">MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                          </sequence>
+                                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                                        </clade>
+                                      </clade>
+                                      <clade branch_length="0.006867">
+                                        <name>ENSMSIG00000031363</name>
+                                        <taxonomy>
+                                          <id>10103</id>
+                                          <scientific_name>Mus spicilegus</scientific_name>
+                                          <common_name>Steppe mouse</common_name>
+                                        </taxonomy>
+                                        <sequence>
+                                          <accession source="Ensembl">ENSMSIP00000037660</accession>
+                                          <name>Ins1-201</name>
+                                          <location>QGOO01037533.1:5108469-5108795</location>
+                                          <mol_seq is_aligned="0">MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                        </sequence>
+                                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_spicilegus</property>
+                                      </clade>
+                                    </clade>
+                                    <clade branch_length="0.018034">
+                                      <name>MGP_CAROLIEiJ_G0023067</name>
+                                      <taxonomy>
+                                        <id>10089</id>
+                                        <scientific_name>Mus caroli strain CAROLI_EIJ</scientific_name>
+                                        <common_name>Ryukyu mouse</common_name>
+                                      </taxonomy>
+                                      <sequence>
+                                        <accession source="Ensembl">MGP_CAROLIEiJ_P0049114</accession>
+                                        <name>Ins1-201</name>
+                                        <location>19:48769063-48770197</location>
+                                        <mol_seq is_aligned="0">MALLVRFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFYSPKSRREVEDPQVEQLELGGSPGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                      </sequence>
+                                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_caroli</property>
+                                    </clade>
+                                  </clade>
+                                  <clade branch_length="0.025378">
+                                    <name>MGP_PahariEiJ_G0014557</name>
+                                    <taxonomy>
+                                      <id>10093</id>
+                                      <scientific_name>Mus pahari strain PAHARI_EIJ</scientific_name>
+                                      <common_name>Shrew mouse</common_name>
+                                    </taxonomy>
+                                    <sequence>
+                                      <accession source="Ensembl">MGP_PahariEiJ_P0022082</accession>
+                                      <name>Ins1-201</name>
+                                      <location>1:163425330-163426456</location>
+                                      <mol_seq is_aligned="0">MALLVRFLPLLALLALWEPNPTQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVEQLELGGGPGAGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                    </sequence>
+                                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_pahari</property>
+                                  </clade>
+                                </clade>
+                                <clade branch_length="0.045767">
+                                  <name>ENSRNOG00000012052</name>
+                                  <taxonomy>
+                                    <id>10116</id>
+                                    <scientific_name>Rattus norvegicus reference strain</scientific_name>
+                                    <common_name>Norway rat - BN/NHsdMcwi</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSRNOP00000016052</accession>
+                                    <name>Ins1-201</name>
+                                    <location>1:261186119-261186682</location>
+                                    <mol_seq is_aligned="0">MALWMRFLPLLALLVLWEPKPAQAFVKQHLCGPHLVEALYLVCGERGFFYTPKSRREVEDPQVPQLELGGGPEAGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">rattus_norvegicus</property>
+                                </clade>
+                              </clade>
+                              <clade branch_length="0.010507">
+                                <confidence type="bootstrap">68</confidence>
+                                <taxonomy>
+                                  <id>39107</id>
+                                  <scientific_name>Murinae</scientific_name>
+                                  <common_name>Old World rodents</common_name>
+                                </taxonomy>
+                                <clade branch_length="0.02069">
+                                  <confidence type="bootstrap">99</confidence>
+                                  <taxonomy>
+                                    <id>10088</id>
+                                    <scientific_name>Mus</scientific_name>
+                                    <common_name>Mice</common_name>
+                                  </taxonomy>
+                                  <clade branch_length="0.008799">
+                                    <confidence type="bootstrap">39</confidence>
+                                    <taxonomy>
+                                      <id>862507</id>
+                                      <scientific_name>Mus</scientific_name>
+                                    </taxonomy>
+                                    <clade branch_length="0">
+                                      <taxonomy>
+                                        <id>862507</id>
+                                        <scientific_name>Mus</scientific_name>
+                                      </taxonomy>
+                                      <clade branch_length="0">
+                                        <confidence type="bootstrap">1</confidence>
+                                        <taxonomy>
+                                          <id>862507</id>
+                                          <scientific_name>Mus</scientific_name>
+                                        </taxonomy>
+                                        <clade branch_length="0.003337">
+                                          <name>ENSMSIG00000007364</name>
+                                          <taxonomy>
+                                            <id>10103</id>
+                                            <scientific_name>Mus spicilegus</scientific_name>
+                                            <common_name>Steppe mouse</common_name>
+                                          </taxonomy>
+                                          <sequence>
+                                            <accession source="Ensembl">ENSMSIP00000008326</accession>
+                                            <name>Ins2-201</name>
+                                            <location>QGOO01036489.1:155404-157136</location>
+                                            <mol_seq is_aligned="0">METCWPSGHCFNMALWMRFLPLLALLFLWESHPTQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELSGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                          </sequence>
+                                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_spicilegus</property>
+                                        </clade>
+                                        <clade branch_length="0.016876">
+                                          <name>MGP_CAROLIEiJ_G0030729</name>
+                                          <taxonomy>
+                                            <id>10089</id>
+                                            <scientific_name>Mus caroli strain CAROLI_EIJ</scientific_name>
+                                            <common_name>Ryukyu mouse</common_name>
+                                          </taxonomy>
+                                          <sequence>
+                                            <accession source="Ensembl">MGP_CAROLIEiJ_P0083418</accession>
+                                            <name>Ins2-204</name>
+                                            <location>7:144882568-144906590</location>
+                                            <mol_seq is_aligned="0">MALWMHFLPLVALLFLWESHPTQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                          </sequence>
+                                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_caroli</property>
+                                        </clade>
+                                      </clade>
+                                      <clade branch_length="0">
+                                        <name>ENSMUSG00000000215</name>
+                                        <taxonomy>
+                                          <id>10090</id>
+                                          <scientific_name>Mus musculus reference (CL57BL6) strain</scientific_name>
+                                          <common_name>Mouse</common_name>
+                                        </taxonomy>
+                                        <sequence>
+                                          <accession source="Ensembl">ENSMUSP00000147425</accession>
+                                          <name>Ins2-209</name>
+                                          <location>7:142232393-142297118</location>
+                                          <mol_seq is_aligned="0">MALWMRFLPLLALLFLWESHPTQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                        </sequence>
+                                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_musculus</property>
+                                      </clade>
+                                    </clade>
+                                    <clade branch_length="0.003346">
+                                      <name>ENSMSPG00010037184</name>
+                                      <taxonomy>
+                                        <id>10096</id>
+                                        <scientific_name>Mus spretus reference strain</scientific_name>
+                                        <common_name>Western wild mouse</common_name>
+                                      </taxonomy>
+                                      <sequence>
+                                        <accession source="Ensembl">ENSMSPP00010047706</accession>
+                                        <name>Ins2-203</name>
+                                        <location>7:130408801-130409871</location>
+                                        <mol_seq is_aligned="0">MALWMRFLPLLALLFLWESHPTQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEVAQQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                      </sequence>
+                                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_spretus</property>
+                                    </clade>
+                                  </clade>
+                                  <clade branch_length="0.014993">
+                                    <name>MGP_PahariEiJ_G0013925</name>
+                                    <taxonomy>
+                                      <id>10093</id>
+                                      <scientific_name>Mus pahari strain PAHARI_EIJ</scientific_name>
+                                      <common_name>Shrew mouse</common_name>
+                                    </taxonomy>
+                                    <sequence>
+                                      <accession source="Ensembl">MGP_PahariEiJ_P0020190</accession>
+                                      <name>Ins2-204</name>
+                                      <location>1:111988085-112017255</location>
+                                      <mol_seq is_aligned="0">MALWMRFLPLLALLFLWESHPAQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                    </sequence>
+                                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">mus_pahari</property>
+                                  </clade>
+                                </clade>
+                                <clade branch_length="0.039575">
+                                  <name>ENSRNOG00000020405</name>
+                                  <taxonomy>
+                                    <id>10116</id>
+                                    <scientific_name>Rattus norvegicus reference strain</scientific_name>
+                                    <common_name>Norway rat - BN/NHsdMcwi</common_name>
+                                  </taxonomy>
+                                  <sequence>
+                                    <accession source="Ensembl">ENSRNOP00000027656</accession>
+                                    <name>Ins2-201</name>
+                                    <location>1:207272742-207273805</location>
+                                    <mol_seq is_aligned="0">MALWIRFLPLLALLILWEPRPAQAFVKQHLCGSHLVEALYLVCGERGFFYTPMSRREVEDPQVAQLELGGGPGAGDLQTLALEVARQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                                  </sequence>
+                                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">rattus_norvegicus</property>
+                                </clade>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade branch_length="0.055157">
+                            <name>ENSNGAG00000015581</name>
+                            <taxonomy>
+                              <id>1026970</id>
+                              <scientific_name>Nannospalax galili</scientific_name>
+                              <common_name>Upper Galilee mountains blind mole rat</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSNGAP00000014222</accession>
+                              <name>Ins-201</name>
+                              <location>KL201848.1:1148401-1149246</location>
+                              <mol_seq is_aligned="0">MALWMRLLPLLALLAFWGPNPGQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEDPQVGQMELPGGPGAGSPQSLALEAALQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">nannospalax_galili</property>
+                          </clade>
+                        </clade>
+                        <clade branch_length="0.093538">
+                          <name>ENSJJAG00000012396</name>
+                          <taxonomy>
+                            <id>51337</id>
+                            <scientific_name>Jaculus jaculus</scientific_name>
+                            <common_name>Lesser Egyptian jerboa</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSJJAP00000008168</accession>
+                            <name>Ins-201</name>
+                            <location>JH725449.1:37087332-37088210</location>
+                            <mol_seq is_aligned="0">MTLWTRLLPLLALLALWGADPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEDPQAGQLELGGGPGAGGPQSLALELAPQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">jaculus_jaculus</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.117387">
+                        <name>ENSDORG00000023976</name>
+                        <taxonomy>
+                          <id>10020</id>
+                          <scientific_name>Dipodomys ordii</scientific_name>
+                          <common_name>Kangaroo rat</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSDORP00000021608</accession>
+                          <name>Ins-201</name>
+                          <location>KN672400.1:391951-392708</location>
+                          <mol_seq is_aligned="0">MALWTRLLPLLALLALWGACPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRRDAEDTQVGQLELGGGLALDLPPQKRGIVDQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">dipodomys_ordii</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.0481">
+                      <confidence type="bootstrap">98</confidence>
+                      <taxonomy>
+                        <id>55153</id>
+                        <scientific_name>Sciuridae</scientific_name>
+                      </taxonomy>
+                      <clade branch_length="0.040739">
+                        <confidence type="bootstrap">70</confidence>
+                        <taxonomy>
+                          <id>337730</id>
+                          <scientific_name>Marmotini</scientific_name>
+                        </taxonomy>
+                        <clade branch_length="0.007171">
+                          <confidence type="bootstrap">70</confidence>
+                          <taxonomy>
+                            <id>337730</id>
+                            <scientific_name>Marmotini</scientific_name>
+                          </taxonomy>
+                          <clade branch_length="0">
+                            <name>ENSUPAG00010006705</name>
+                            <taxonomy>
+                              <id>9999</id>
+                              <scientific_name>Urocitellus parryii</scientific_name>
+                              <common_name>Arctic ground squirrel</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSUPAP00010008357</accession>
+                              <name>INS-201</name>
+                              <location>QVIC01000596.1:577950-578958</location>
+                              <mol_seq is_aligned="0">MALWTRLLPLLALLALLGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEEQQGGQMELGGGPGAGLPQPLALEMALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">urocitellus_parryii</property>
+                          </clade>
+                          <clade branch_length="0.011757">
+                            <name>ENSSTOG00000026937</name>
+                            <taxonomy>
+                              <id>43179</id>
+                              <scientific_name>Ictidomys tridecemlineatus</scientific_name>
+                              <common_name>Squirrel</common_name>
+                            </taxonomy>
+                            <sequence>
+                              <accession source="Ensembl">ENSSTOP00000017025</accession>
+                              <name>Ins-201</name>
+                              <location>JH393626.1:1002137-1003357</location>
+                              <mol_seq is_aligned="0">MALWTRLLPLLALLALLGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEEQQGGQVELGGGPGAGLPQPLALEMALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                            </sequence>
+                            <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">ictidomys_tridecemlineatus</property>
+                          </clade>
+                        </clade>
+                        <clade branch_length="0.00902">
+                          <name>ENSMMMG00000004855</name>
+                          <taxonomy>
+                            <id>9994</id>
+                            <scientific_name>Marmota marmota marmota</scientific_name>
+                            <common_name>Alpine marmot</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSMMMP00000005355</accession>
+                            <name>INS-201</name>
+                            <location>CZRN01000087.1:5395186-5396197</location>
+                            <mol_seq is_aligned="0">MALWTRLLPLLTLLALLGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEEQQGGQMELGGGPGAGLPQPLALEMALQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">marmota_marmota_marmota</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.065713">
+                        <name>ENSSVLG00005018076</name>
+                        <taxonomy>
+                          <id>55149</id>
+                          <scientific_name>Sciurus vulgaris</scientific_name>
+                          <common_name>Eurasian red squirrel</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSSVLP00005022694</accession>
+                          <name>INS-201</name>
+                          <location>11:1806953-1807876</location>
+                          <mol_seq is_aligned="0">MALWTHLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREAEEQQGGPAELGGGLPQRSALEVALRKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">sciurus_vulgaris</property>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade branch_length="0.158066">
+                    <confidence type="bootstrap">31</confidence>
+                    <taxonomy>
+                      <id>33550</id>
+                      <scientific_name>Hystricomorpha</scientific_name>
+                      <common_name>Guinea pigs and others</common_name>
+                    </taxonomy>
+                    <clade branch_length="0.022906">
+                      <confidence type="bootstrap">21</confidence>
+                      <taxonomy>
+                        <id>33550</id>
+                        <scientific_name>Hystricomorpha</scientific_name>
+                        <common_name>Guinea pigs and others</common_name>
+                      </taxonomy>
+                      <clade branch_length="0.043092">
+                        <confidence type="bootstrap">76</confidence>
+                        <taxonomy>
+                          <id>33550</id>
+                          <scientific_name>Hystricomorpha</scientific_name>
+                          <common_name>Guinea pigs and others</common_name>
+                        </taxonomy>
+                        <clade branch_length="0.110264">
+                          <name>ENSCPOG00000031250</name>
+                          <taxonomy>
+                            <id>10141</id>
+                            <scientific_name>Cavia porcellus</scientific_name>
+                            <common_name>Guinea Pig</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSCPOP00000026989</accession>
+                            <name>Ins-201</name>
+                            <location>DS562897.1:12394966-12397002</location>
+                            <mol_seq is_aligned="0">MALWMHLLTVLALLALWGPNTGQAFVSRHLCGSNLVETLYSVCQDDGFFYIPKDRRELEDPQVEQTELGMGLGAGGLQPLALEMALQKRGIVDQCCTGTCTRHQLQSYCN</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">cavia_porcellus</property>
+                        </clade>
+                        <clade branch_length="0.156327">
+                          <name>ENSODEG00000017307</name>
+                          <taxonomy>
+                            <id>10160</id>
+                            <scientific_name>Octodon degus</scientific_name>
+                            <common_name>Degu</common_name>
+                          </taxonomy>
+                          <sequence>
+                            <accession source="Ensembl">ENSODEP00000023635</accession>
+                            <name>INS-201</name>
+                            <location>JH651533.1:16542628-16543810</location>
+                            <mol_seq is_aligned="0">MAPWMHLLTVLALLALWGPNSVQAYSSQHLCGSNLVEALYMTCGRSGFYRPHDRRELEDLQVEQAELGLEAGGLQPSALEMILQKRGIVDQCCNNICTFNQLQNYCNVP</mol_seq>
+                          </sequence>
+                          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">octodon_degus</property>
+                        </clade>
+                      </clade>
+                      <clade branch_length="0.083564">
+                        <name>ENSHGLG00000019348</name>
+                        <taxonomy>
+                          <id>10181</id>
+                          <scientific_name>Heterocephalus glaber reference strain</scientific_name>
+                          <common_name>Naked mole-rat female</common_name>
+                        </taxonomy>
+                        <sequence>
+                          <accession source="Ensembl">ENSHGLP00000027207</accession>
+                          <name>INS-201</name>
+                          <location>22:17636681-17637628</location>
+                          <mol_seq is_aligned="0">MALWMRLLAVLALLALWRPDTAQAFVNRHLCGSHLVEALYLVCGDNGFFYTPKERRELENLQVGQAEPGMGLEAGGLQPLAQELALQKRGIVDQCCNSICSLYQLQNYCN</mol_seq>
+                        </sequence>
+                        <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">heterocephalus_glaber_female</property>
+                      </clade>
+                    </clade>
+                    <clade branch_length="0.076569">
+                      <name>ENSCLAG00000015849</name>
+                      <taxonomy>
+                        <id>34839</id>
+                        <scientific_name>Chinchilla lanigera</scientific_name>
+                        <common_name>Long-tailed chinchilla</common_name>
+                      </taxonomy>
+                      <sequence>
+                        <accession source="Ensembl">ENSCLAP00000023087</accession>
+                        <name>INS-201</name>
+                        <location>JH721882.1:13909407-13910419</location>
+                        <mol_seq is_aligned="0">MAPWMRLLAVLALLALGGPNSAQAFVNKHLCGSHLVDALYLVCGDRGFFYTPMARRELEDPQVGQADAGVVPEAGRLQPLALEMTLQKRGIVDQCCTSICTLYQLENYCN</mol_seq>
+                      </sequence>
+                      <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">chinchilla_lanigera</property>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade branch_length="0.09447">
+                  <name>ENSOCUG00000000243</name>
+                  <taxonomy>
+                    <id>9986</id>
+                    <scientific_name>Oryctolagus cuniculus</scientific_name>
+                    <common_name>Rabbit</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSOCUP00000020463</accession>
+                    <name>INS-201</name>
+                    <location>AAGW02082940:559-2205</location>
+                    <mol_seq is_aligned="0">MRVGASLALGFSQPVSSCLPGHRLCTMAPWPRLLPLLALLVLCRLDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKSRREVEELQVGQAELGGGPGAGGLQPSALELALQKRGIVEQCCTSICSLYQLENYCTYGCPPPTPARAPHAPRPRPHPINPSTRR</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">oryctolagus_cuniculus</property>
+                </clade>
+              </clade>
+              <clade branch_length="0.10026">
+                <name>ENSTBEG00000007275</name>
+                <taxonomy>
+                  <id>37347</id>
+                  <scientific_name>Tupaia belangeri</scientific_name>
+                  <common_name>Tree Shrew</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSTBEP00000006277</accession>
+                  <name>INS-201</name>
+                  <location>scaffold_5168:91276-92151</location>
+                  <mol_seq is_aligned="0">MALWTCFLPLLTLLALWGPEPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREVEDSQGQVELRGPAGSLQPLALEVPPQKRGIVEQCCTSICSLYQLENYCN</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">tupaia_belangeri</property>
+              </clade>
+            </clade>
+          </clade>
+        </clade>
+        <clade branch_length="0.151965">
+          <name>ENSLAFG00000020914</name>
+          <taxonomy>
+            <id>9785</id>
+            <scientific_name>Loxodonta africana</scientific_name>
+            <common_name>Elephant</common_name>
+          </taxonomy>
+          <sequence>
+            <accession source="Ensembl">ENSLAFP00000015739</accession>
+            <name>INS-201</name>
+            <location>scaffold_145:1033524-1034566</location>
+            <mol_seq is_aligned="0">MALWTRLLPLLALLAVGAPPPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREVEDTQVGEVELGTGLQPFPAEAPKQKRGIVEQCCTGVCSLYQLENYCN</mol_seq>
+          </sequence>
+          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">loxodonta_africana</property>
+        </clade>
+      </clade>
+      <clade branch_length="0.39391">
+        <taxonomy>
+          <id>9347</id>
+          <scientific_name>Eutheria</scientific_name>
+          <common_name>Placentals</common_name>
+        </taxonomy>
+        <clade branch_length="0.051411">
+          <taxonomy>
+            <id>1437010</id>
+            <scientific_name>Boreoeutheria</scientific_name>
+            <common_name>Placental mammals</common_name>
+          </taxonomy>
+          <clade branch_length="0">
+            <confidence type="bootstrap">9</confidence>
+            <taxonomy>
+              <id>314145</id>
+              <scientific_name>Laurasiatheria</scientific_name>
+              <common_name>Laurasiatherian mammals</common_name>
+            </taxonomy>
+            <clade branch_length="0.066707">
+              <name>ENSUMAG00000006247</name>
+              <taxonomy>
+                <id>29073</id>
+                <scientific_name>Ursus maritimus</scientific_name>
+                <common_name>Polar bear</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSUMAP00000008147</accession>
+                <name>INS-IGF2-201</name>
+                <location>KK498651.1:1662781-1675412</location>
+                <mol_seq is_aligned="0">MALWTRLLPLLALLAFWAPVPARTFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDLPASASSPSSSSTSTRLEGLGTTARAPPTLAATANTGPTSRSSAGQFRQRDLGTSDSPVLFIHRPGTSGTTQRLEYRGRRVTGELLEEEVDPKPQSPTTHPAEPPAQVAHQLEPQATQEPSPEVSCCGLWPRRSPRAQN</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">ursus_maritimus</property>
+            </clade>
+            <clade branch_length="0.23575">
+              <name>ENSPVAG00000012244</name>
+              <taxonomy>
+                <id>132908</id>
+                <scientific_name>Pteropus vampyrus</scientific_name>
+                <common_name>Megabat</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSPVAP00000011540</accession>
+                <location>scaffold_11859:35363-45022</location>
+                <mol_seq is_aligned="0">MALWTRLLPLLALLGLWAPTPAPAFVSQHLCGSHLVEALYLVCGERGFFYTPKARRELEGPQASAASARASPAPTGPDGLGTPARAAPALAVTANVGLASRPLTGPCGQSALGPRDCPGLLVPHPGASGTVQPLELRGRKVTAELLEEADSSPQLQGPAPQPPEQPAARPEPQPQPDEARAAEPGLEFCCLCPRRPPRPRN</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">pteropus_vampyrus</property>
+            </clade>
+          </clade>
+          <clade branch_length="0.047555">
+            <taxonomy>
+              <id>376913</id>
+              <scientific_name>Haplorrhini</scientific_name>
+              <common_name>Dry-nosed primates</common_name>
+            </taxonomy>
+            <clade branch_length="0.086004">
+              <confidence type="bootstrap">100</confidence>
+              <taxonomy>
+                <id>314295</id>
+                <scientific_name>Hominoidea</scientific_name>
+                <common_name>Apes</common_name>
+              </taxonomy>
+              <clade branch_length="0.015791">
+                <confidence type="bootstrap">100</confidence>
+                <taxonomy>
+                  <id>207598</id>
+                  <scientific_name>Homininae</scientific_name>
+                  <common_name>Hominines</common_name>
+                </taxonomy>
+                <clade branch_length="0.007818">
+                  <confidence type="bootstrap">100</confidence>
+                  <taxonomy>
+                    <id>9596</id>
+                    <scientific_name>Pan</scientific_name>
+                    <common_name>Chimpanzees</common_name>
+                  </taxonomy>
+                  <clade branch_length="0">
+                    <name>ENSPPAG00000040990</name>
+                    <taxonomy>
+                      <id>9597</id>
+                      <scientific_name>Pan paniscus</scientific_name>
+                      <common_name>Bonobo</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSPPAP00000036449</accession>
+                      <location>11:2218117-2231666</location>
+                      <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSLSSSTSTWPEGLDATARAPPALVVTANIGQAGGSSSRQFRQRALGTSDSPVLFIHCPGAAGTAQGLEYRGRRVTTELVWEEVDSSPQPQGSESLPAQPPAQPAPQPEPQQAREPSPEVSCCGLWPRRPQRSQN</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">pan_paniscus</property>
+                  </clade>
+                  <clade branch_length="0.003383">
+                    <name>ENSPTRG00000003172</name>
+                    <taxonomy>
+                      <id>9598</id>
+                      <scientific_name>Pan troglodytes</scientific_name>
+                      <common_name>Chimpanzee</common_name>
+                    </taxonomy>
+                    <sequence>
+                      <accession source="Ensembl">ENSPTRP00000077843</accession>
+                      <name>INS-201</name>
+                      <location>11:2161977-2175544</location>
+                      <mol_seq is_aligned="0">MALWMRLLPLLVLLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALSLSSSTSTWPEGLDATARAPPALVVTANIGQAGGSSSRQFRQRALGTSDSPVLFIHCPGAAGTAQGLEYRGRRVTTELVWEEVDSSPQPQGSESLPAQPPAQPAPQPEPQQAREPSPEVSCCGLWPRRPQRSQN</mol_seq>
+                    </sequence>
+                    <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">pan_troglodytes</property>
+                  </clade>
+                </clade>
+                <clade branch_length="0.006726">
+                  <name>ENSGGOG00000022826</name>
+                  <taxonomy>
+                    <id>9595</id>
+                    <scientific_name>Gorilla gorilla gorilla</scientific_name>
+                    <common_name>Gorilla</common_name>
+                  </taxonomy>
+                  <sequence>
+                    <accession source="Ensembl">ENSGGOP00000034798</accession>
+                    <name>INS-201</name>
+                    <location>11:1950143-1963618</location>
+                    <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQASALFLSSSTSTWPEGLDATARAPPALVVTANIGQAGGSSSRQFRQRALGTSDSPVLFIHCPGAAGTAQGLEYRGRRVTTELVWEEVDSSPQPQGSESLPAQPPAQPAPQPEPQQAREPSPEVSCCGLWPRRPQRSQN</mol_seq>
+                  </sequence>
+                  <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">gorilla_gorilla</property>
+                </clade>
+              </clade>
+              <clade branch_length="0.019144">
+                <name>ENSNLEG00000013456</name>
+                <taxonomy>
+                  <id>61853</id>
+                  <scientific_name>Nomascus leucogenys</scientific_name>
+                  <common_name>Gibbon</common_name>
+                </taxonomy>
+                <sequence>
+                  <accession source="Ensembl">ENSNLEP00000016293</accession>
+                  <name>INS-202</name>
+                  <location>4:92841621-92855517</location>
+                  <mol_seq is_aligned="0">MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQASALSPSSSTSTWPEGLDATARAPPALVATANFGQVGGSSSRQFRQRALGTSDSPVLFIHCPGAAGTARGLEYRGRRVTTELVWEEVDSSPQPQGSESLPAQPPAQPAPQPEPQQARAAGEPSPEVSCCGLWPRRPQRSQN</mol_seq>
+                </sequence>
+                <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">nomascus_leucogenys</property>
+              </clade>
+            </clade>
+            <clade branch_length="0.091653">
+              <name>ENSTSYG00000010583</name>
+              <taxonomy>
+                <id>1868482</id>
+                <scientific_name>Carlito syrichta</scientific_name>
+                <common_name>Tarsier</common_name>
+              </taxonomy>
+              <sequence>
+                <accession source="Ensembl">ENSTSYP00000009693</accession>
+                <location>KE931260.1:13362-14379</location>
+                <mol_seq is_aligned="0">MALCSRLLPLLALLALWGPDPARAFVNQHLCGPHLVEALYLVCGERGFFYAPKARREVEDTQXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</mol_seq>
+              </sequence>
+              <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">carlito_syrichta</property>
+            </clade>
+          </clade>
+        </clade>
+        <clade branch_length="0.199059">
+          <name>ENSPCAG00000013064</name>
+          <taxonomy>
+            <id>9813</id>
+            <scientific_name>Procavia capensis</scientific_name>
+            <common_name>Hyrax</common_name>
+          </taxonomy>
+          <sequence>
+            <accession source="Ensembl">ENSPCAP00000012156</accession>
+            <location>GeneScaffold_1132:6585-17876</location>
+            <mol_seq is_aligned="0">MALWTRLLPLLALLAVGPPPPARAFVNQHLCGSHLVEALYLVCGERGFFYTPKARREVEDPQAPPPSTSPSASTRLQGLDLTARAPPALSETDNTSPTGGPPAGQFQETAFGTSDSPVLTIHHPGAAGTPQQLEFRGQSVTTGLVEEEEASTRPQHQSPPPLPALPPAQPAPQPKLQQVRFSRDPSPEVRCCGLWPWRRSWHLQNE</mol_seq>
+          </sequence>
+          <property datatype="xsd:string" ref="Compara:genome_db_name" applies_to="clade">procavia_capensis</property>
+        </clade>
+      </clade>
+    </clade>
+    <property datatype="xsd:string" ref="Compara:gene_tree_stable_id" applies_to="phylogeny">ENSGT00390000015440</property>
+  </phylogeny>
+</phyloxml>

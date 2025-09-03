@@ -1,0 +1,56 @@
+groups:
+    - level: Murinae
+      subgroups:
+        - name: INS1
+          complete: yes
+          members:
+            - ENSMSPG00010006608
+            - ENSMUSG00000035804
+            - ENSMSIG00000031363
+            - MGP_CAROLIEiJ_G0023067
+            - MGP_PahariEiJ_G0014557
+            - ENSRNOG00000012052
+        - name: INS2
+          complete: yes
+          members:
+            - ENSMSIG00000007364
+            - MGP_CAROLIEiJ_G0030729
+            - ENSMUSG00000000215
+            - ENSMSPG00010037184
+            - MGP_PahariEiJ_G0013925
+            - ENSRNOG00000020405
+
+    - level: Euarchontoglires_025
+      # complete == yes means no other members are expected in this group, where as
+      # complete == no means there may be other members not listed here
+      complete: yes
+      members:
+        - ENSMOCG00000013477
+        - ENSPEMG00000018633
+        - ENSMAUG00000018376
+        - ENSCGRG00001024085
+        - ENSMSPG00010006608
+        - ENSMUSG00000035804
+        - ENSMSIG00000031363
+        - MGP_CAROLIEiJ_G0023067
+        - MGP_PahariEiJ_G0014557
+        - ENSRNOG00000012052
+        - ENSMSIG00000007364
+        - MGP_CAROLIEiJ_G0030729
+        - ENSMUSG00000000215
+        - ENSMSPG00010037184
+        - MGP_PahariEiJ_G0013925
+        - ENSRNOG00000020405
+        - ENSNGAG00000015581
+        - ENSJJAG00000012396
+        - ENSDORG00000023976
+        - ENSUPAG00010006705
+        - ENSSTOG00000026937
+        - ENSMMMG00000004855
+        - ENSSVLG00005018076
+        - ENSCPOG00000031250
+        - ENSODEG00000017307
+        - ENSHGLG00000019348
+        - ENSCLAG00000015849
+        - ENSOCUG00000000243
+        - ENSTBEG00000007275

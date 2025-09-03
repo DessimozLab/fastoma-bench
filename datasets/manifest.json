@@ -1,0 +1,4 @@
+[
+  {"id": "ds01", "step": "subhog_inference", "tier": "tiny", "input_path": "datasets/insulin_ensembl", "sequences": "insulin.fa", "sp_tree": "species_tree.nwk", "args": {}},
+  {"id": "ds02", "step": "omamer", "input_path": "datasets/ds02", "tier": "tiny"}
+]
