@@ -56,7 +56,11 @@ jobs:
           GROUP_INDEX: ${{ matrix.group_index }}
           GROUP_TOTAL: ${{ needs.discover.outputs.total }}
           # decide tier from schedule vs manual
-          TIER: ${{ github.event_name == 'workflow_dispatch' && inputs.tier || (github.event.schedule == '0 1 * * *' && 'tiny' || github.event.schedule == '0 2 * * 0' && 'medium' || 'full') }}
+          TIER: ${{ github.event_name == 'push' && 'tiny' ||
+                    github.event_name == 'workflow_dispatch' && inputs.tier ||
+                    (github.event.schedule == '0 1 * * *' && 'tiny') ||
+                    (github.event.schedule == '0 2 * * 0' && 'medium') ||
+                    'full' }}
 
         run: |
           python scripts/run_bench_batch_docker.py
