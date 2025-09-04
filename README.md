@@ -2,7 +2,7 @@
 
 This repo contains benchmarks for [FastOMA](https://github.com/DessimozLab/FastOMA), that are run on a regular basis.
 
-View the latest results here: https://dessimozlab.github.io/FastOMA-Bench/
+View the latest results here: https://dessimozlab.github.io/fastoma-bench/
 
 ## Overview of the repository
 
@@ -56,7 +56,7 @@ The script `scripts/make_dashboard.py` can be used to generate a dashboard from 
 
 Note that the whole process is also being automated in the CI pipeline, and should run automatically on every push 
 commit of this repository and on a daily basis, and the results are being pushed to following github page: 
-https://dessimozlab.github.io/FastOMA-Bench/
+https://dessimozlab.github.io/fastoma-bench/
 
 
 ## Contributing benchmarks
