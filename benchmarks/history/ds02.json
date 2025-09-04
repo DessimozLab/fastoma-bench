@@ -1,0 +1,20 @@
+[
+  {
+    "timestamp": "2025-09-04T09:46:14.369646+00:00",
+    "dataset": "ds02",
+    "host": "pkrvm7jw40e0xgp",
+    "env": {
+      "python": "3.12.11",
+      "docker_image": "dessimozlab/fastoma:dev"
+    },
+    "step": "omamer",
+    "metrics": {
+      "user_sec": 0.39,
+      "sys_sec": 0.14,
+      "max_rss_kb": 52380,
+      "elapsed_sec": 0.43,
+      "step": "omamer",
+      "fastoma_commit": "cd70254ca37b53acb5c9e2f282392eee971d9967"
+    }
+  }
+]
