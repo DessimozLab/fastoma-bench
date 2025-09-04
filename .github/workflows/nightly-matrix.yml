@@ -91,6 +91,11 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install .
+      - run: |
+        # list files benchmarks/history
+        ls -l benchmarks/history
+        find benchmarks/history -type f -path "*.json" | xargs -n1 head -n3
+
       - run: python scripts/make_dashboard.py
 
 

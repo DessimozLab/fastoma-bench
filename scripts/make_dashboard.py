@@ -28,6 +28,8 @@ def flatten_rows() -> pd.DataFrame:
     return df
 
 df = flatten_rows()
+print(df.describe())
+print(f"Loaded {len(df)} records")
 df.sort_values(["dataset", "step", "timestamp"], inplace=True)
 
 # Metrics you want to expose
