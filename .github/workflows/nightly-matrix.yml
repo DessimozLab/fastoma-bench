@@ -69,7 +69,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: history-batch-${{ matrix.group_index }}
-          path: benchmarks/history
+          path: benchmarks/history/
+          if-no-files-found: error
+          retention-days: 7
 
   collect:
     runs-on: ubuntu-latest
@@ -85,28 +87,21 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           path: _artifacts
+          pattern: history-batch-*
+          merge-multiple: true
 
       - name: Merge history from all batches
         run: |
           mkdir -p benchmarks/history
-          # overlay all history/* files; since each job only writes its datasets, overwrites are unlikely
-          find _artifacts -type f -path "*/history/*.json" -print0 | while IFS= read -r -d '' f; do
-            ds=$(basename "$f")
-            cp "$f" "benchmarks/history/$ds"
-          done
+          find _artifacts -type f -name "*.json" -exec cp {} benchmarks/history/ \;
+          ls -l benchmarks/history
 
       - name: Build dashboard
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install .
-      - run: |
-          # list files benchmarks/history
-          ls -l benchmarks/history
-          find benchmarks/history -type f -path "*.json" | xargs -n1 head -n3
-
       - run: python scripts/make_dashboard.py
-
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
