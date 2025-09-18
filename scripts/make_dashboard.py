@@ -76,10 +76,10 @@ for step in sorted(df["step"].unique()):
     figs_html.append(fig.to_html(full_html=False, include_plotlyjs="cdn"))
 
 html = f"""<!doctype html>
-<html><head><meta charset="utf-8"><title>FastOMA Benchmarks</title></head>
+<html lang="en"><head><meta charset="utf-8"><title>FastOMA Benchmarks</title></head>
 <body style="max-width:1100px;margin:40px auto;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu">
   <h1>FastOMA Benchmarks</h1>
-  <p>Interactive, asv-inspired dashboard tracking performance & quality over time.</p>
+  <p>Interactive dashboard tracking performance and quality over time.</p>
   <p><b>Datasets:</b> {len(datasets)} | <b>Records:</b> {len(df)}</p>
   {''.join(figs_html)}
   <hr/>

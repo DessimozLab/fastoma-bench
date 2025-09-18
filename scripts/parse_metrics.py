@@ -84,7 +84,7 @@ def check_subhog_assertions(ham: pyham.Ham, assert_file: pathlib.Path) -> Dict[s
     def _compare_group_sets(expected: set[str], found: Dict[HOG, Set[str]], name: str|None = None) -> None:
         """ Compare expected and found group sets.
 
-        expected is always a single set with protein IDs. The found one can be split into multiple groups.
+        Expected is always a single set with protein IDs. The found one can be split into multiple groups.
 
         The function updates metrics dict with pass/fail counts and violations."""
         if name is None:
