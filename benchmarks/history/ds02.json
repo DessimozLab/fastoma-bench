@@ -1996,5 +1996,23 @@
       "step": "omamer",
       "fastoma_commit": "ec73074b9273e5ab381e7af8ccadd78aa4b02a18"
     }
+  },
+  {
+    "timestamp": "2025-12-20T02:26:26.061338+00:00",
+    "dataset": "ds02",
+    "host": "runnervmh13bl",
+    "env": {
+      "python": "3.12.12",
+      "docker_image": "dessimozlab/fastoma:dev"
+    },
+    "step": "omamer",
+    "metrics": {
+      "user_sec": 1.16,
+      "sys_sec": 0.46,
+      "max_rss_kb": 191628,
+      "elapsed_sec": 1.3,
+      "step": "omamer",
+      "fastoma_commit": "8e4d373ec32c55b43239281a79007bb97536c36d"
+    }
   }
 ]
