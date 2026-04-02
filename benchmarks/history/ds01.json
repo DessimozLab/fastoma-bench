@@ -11320,5 +11320,58 @@
       "step": "subhog_inference",
       "fastoma_commit": "28296a4cc48649c02d7733ef35a50aa6ecb7184f"
     }
+  },
+  {
+    "timestamp": "2026-04-02T03:37:31.503065+00:00",
+    "dataset": "ds01",
+    "host": "runnervmrg6be",
+    "env": {
+      "python": "3.12.13",
+      "docker_image": "dessimozlab/fastoma:dev"
+    },
+    "step": "subhog_inference",
+    "metrics": {
+      "user_sec": 12.44,
+      "sys_sec": 8.3,
+      "max_rss_kb": 219396,
+      "elapsed_sec": 16.82,
+      "fraction_placed": 1.0,
+      "n_groups": 2,
+      "n_assertions": 0,
+      "n_passed": 3,
+      "n_failed": 0,
+      "violations": [],
+      "overlaps": [
+        {
+          "level": "Murinae",
+          "name": "INS1",
+          "venn": [
+            0,
+            6,
+            0
+          ]
+        },
+        {
+          "level": "Murinae",
+          "name": "INS2",
+          "venn": [
+            0,
+            6,
+            0
+          ]
+        },
+        {
+          "level": "Euarchontoglires_025",
+          "name": "main",
+          "venn": [
+            0,
+            29,
+            0
+          ]
+        }
+      ],
+      "step": "subhog_inference",
+      "fastoma_commit": "28296a4cc48649c02d7733ef35a50aa6ecb7184f"
+    }
   }
 ]
